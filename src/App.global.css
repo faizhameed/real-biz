@@ -14,9 +14,9 @@ body {
 }
 
 button {
-  background-color: white;
-  padding: 10px 20px;
-  border-radius: 10px;
+  background-color: rgb(165, 165, 165);
+  padding: 10px;
+  border-radius: 2px;
   border: none;
   appearance: none;
   transition: transform ease-in 0.1s;
