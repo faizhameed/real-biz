@@ -8,7 +8,7 @@ const Hello = () => {
     <div>
       <h1>Real Biz</h1>
       <p>Real time updates from the Tally Database</p>
-      <Button>Enter Here</Button>
+      <Button>Enter here</Button>
     </div>
   );
 };
