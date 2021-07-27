@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.global.css';
 import Button from './components/Buttons';
 
-const Hello = () => {
+const Hello: React.FC = () => {
   return (
     <div>
       <h1>Real Biz</h1>

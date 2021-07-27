@@ -8,13 +8,13 @@ interface IProps {
   children: React.ReactNode;
 }
 
-const Button = ({ children, btnClass }: IProps) => {
+const Button: React.FC<IProps> = ({ children, btnClass }: IProps) => {
   const handleClick = () => {};
   // var className: string;
   return (
     <button
       className={cx(styles.btn, {
-        [btnClass]: !!btnClass,
+        [btnClass as string]: !!btnClass,
       })}
       type="button"
       onClick={handleClick}
